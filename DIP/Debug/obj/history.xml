@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\DIP\cmsis_lib\include -I..\..\..\workspace -I..\..\..\workspace\DIP\cmsis_lib -I..\..\..\workspace\DIP\semihosting -I..\..\..\workspace\DIP\cmsis -I..\..\..\workspace\DIP\cmsis_boot -I..\..\..\workspace\DIP">
+      <target file="syscalls.o" lastModified="151c0310c0b">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="151c01a2da8"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="151c0310b04">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="151c01cd39b"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="151c0310b9e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151c01c7191"/>
+      </target>
+      <target file="printf.o" lastModified="151c03109b6">
+         <source file="..\..\..\stdio\printf.c" lastModified="151c01c8bc1"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="151c0311009">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="151c01d1d68"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="151c0310db4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="151c01d8008"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="151c03107ea">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="151c01c718c"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="151c031079d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="151c01db139"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="151c0310e9c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="151c01cf5cd"/>
+      </target>
+      <target file="main.o" lastModified="151c031082c">
+         <source file="..\..\..\main.c" lastModified="151c0182a05"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="151c0310b31">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="151c01c8b7c"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="151c0310cd2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="151c01d4671"/>
+      </target>
+      <target file="semihosting.o" lastModified="151c0310651">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="151c01c8b7b"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="151c03108f5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="151c01cb3e8"/>
+      </target>
+   </processor>
+</history>

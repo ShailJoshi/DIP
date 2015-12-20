@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=DIP.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\DIP -TC:\CooCox\CoIDE\configuration\ProgramData\DIP/arm-gcc-link.ld -g">
+      <target file="DIP.elf" lastModified="151c0311227">
+         <source file="..\obj\semihosting.o" lastModified="151c0310651"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="151c031079d"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="151c03107ea"/>
+         <source file="..\obj\main.o" lastModified="151c031082c"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="151c03108f5"/>
+         <source file="..\obj\printf.o" lastModified="151c03109b6"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="151c0310b04"/>
+         <source file="..\obj\sh_cmd.o" lastModified="151c0310b31"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="151c0310b9e"/>
+         <source file="..\obj\syscalls.o" lastModified="151c0310c0b"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="151c0310cd2"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="151c0310db4"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="151c0310e9c"/>
+         <source file="..\obj\stm32f4xx_rtc.o" lastModified="151c0311009"/>
+      </target>
+   </processor>
+</history>
